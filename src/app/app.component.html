@@ -1,28 +1,5 @@
-<nav class="navbar navbar-expand-md navbar-light fixed-top">
-  <div class="container">
-    <div class="navbar-header">
-      <div class="navbar-brand">
-        <a href="#"><h1><span>Call</span> Manager</h1></a>
-      </div>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    </div>
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Customer</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Service Calls</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Products</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+<top-navbar></top-navbar>
+
+<div class="container router-content">
+  <router-outlet></router-outlet>
+</div>
