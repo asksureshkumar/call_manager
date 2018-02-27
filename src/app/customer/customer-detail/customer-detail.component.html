@@ -1,0 +1,73 @@
+<div>
+  <div class="row">
+    <div class="col-md-6">
+      <div style="white-space: nowrap; display: flex; justify-content: space-around;">
+        <span class="header">Customer Name:</span>
+        <span>{{customer?.name}}</span>
+      </div>
+    </div>
+    <div class="col-md-6">
+        <div style="white-space: nowrap; display: flex; justify-content: space-around;">
+          <span class="header">Mail Id:</span>
+          <span>{{customer?.mailId}}</span>
+        </div>
+      </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <div style="display: flex; justify-content: space-around;">
+        <span class="header">Address:</span>
+        <span>{{customer?.address}}</span>
+      </div>
+    </div>
+    <div class="col-md-6">
+        <div style="white-space: nowrap; display: flex; justify-content: space-around;">
+          <span class="header">PinCode:</span>
+          <span>{{customer?.pincode}}</span>
+        </div>
+      </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <div style="display: flex; justify-content: space-around;">
+        <span class="header">Area:</span>
+        <span>{{customer?.area}}</span>
+      </div>
+    </div>
+    <div class="col-md-6">
+        <div style="white-space: nowrap; display: flex; justify-content: space-around;">
+          <span class="header">Landmark:</span>
+          <span>{{customer?.landmark}}</span>
+        </div>
+      </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <div style="display: flex; justify-content: space-around;">
+        <span class="header">District:</span>
+        <span>{{customer?.district}}</span>
+      </div>
+    </div>
+    <div class="col-md-6">
+        <div style="white-space: nowrap; display: flex; justify-content: space-around;">
+          <span class="header">State:</span>
+          <span>{{customer?.state}}</span>
+        </div>
+      </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <div style="display: flex; justify-content: space-around;">
+        <span class="header">Mobile:</span>
+        <span>{{customer?.phoneNumber}}</span>
+      </div>
+    </div>
+    <div class="col-md-6">
+        <div style="white-space: nowrap; display: flex; justify-content: space-around;">
+          <span class="header">Alternate Phone Number:</span>
+          <span>{{customer?.altPhoneNumber}}</span>
+        </div>
+      </div>
+  </div>
+  <button type="button" class="btn btn-outline-secondary" (click)="cancel()">Back</button>
+</div>

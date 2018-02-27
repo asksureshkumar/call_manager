@@ -1,0 +1,60 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,199,311,393,497,600",
+                        "endColumns": "143,111,81,103,102,119",
+                        "endOffsets": "194,306,388,492,595,715"
+                    },
+                    "to": {
+                        "startLines": "7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "822,966,1078,1160,1264,1367",
+                        "endColumns": "143,111,81,103,102,119",
+                        "endOffsets": "961,1073,1155,1259,1362,1482"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "5,8",
+                        "startColumns": "4,4",
+                        "startOffsets": "651,889",
+                        "endColumns": "66,218",
+                        "endOffsets": "713,1103"
+                    },
+                    "to": {
+                        "startLines": "3,6",
+                        "startColumns": "4,4",
+                        "startOffsets": "422,603",
+                        "endColumns": "66,218",
+                        "endOffsets": "484,817"
+                    }
+                },
+                {
+                    "source": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "4,2,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "164,55,105",
+                        "endColumns": "63,49,58",
+                        "endOffsets": "223,100,159"
+                    },
+                    "to": {
+                        "startLines": "4,5,13",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "489,553,1487",
+                        "endColumns": "63,49,58",
+                        "endOffsets": "548,598,1541"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+  "project_info": {
+    "project_number": "362043148692",
+    "firebase_url": "https://callmanager-786ae.firebaseio.com",
+    "project_id": "callmanager-786ae"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:362043148692:android:22ac3f62daf4d8ab",
+        "android_client_info": {
+          "package_name": "com.callmanager.cordova"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "362043148692-93m8uvm1h71hdftbclimqcv6qi7osqh0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCe6SdnJ_Z5_lL8DhSLpnMJFxYrHEnV-8M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

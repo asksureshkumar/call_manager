@@ -1,0 +1,1754 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-af_values-af.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-af\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "250",
+                        "endOffsets": "589"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "250",
+                        "endOffsets": "351"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-lv_values-lv.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-lv\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "264",
+                        "endOffsets": "603"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "264",
+                        "endOffsets": "365"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-hu_values-hu.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-hu\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "294",
+                        "endOffsets": "633"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "294",
+                        "endOffsets": "395"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-az_values-az.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-az\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "254",
+                        "endOffsets": "593"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "254",
+                        "endOffsets": "355"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-mk_values-mk.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-mk\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "237",
+                        "endOffsets": "576"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "237",
+                        "endOffsets": "338"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-is_values-is.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-is\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "257",
+                        "endOffsets": "596"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "257",
+                        "endOffsets": "358"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-lt_values-lt.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-lt\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "273",
+                        "endOffsets": "612"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "273",
+                        "endOffsets": "374"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-mr_values-mr.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-mr\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "236",
+                        "endOffsets": "575"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "236",
+                        "endOffsets": "337"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-pl_values-pl.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-pl\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "262",
+                        "endOffsets": "601"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "262",
+                        "endOffsets": "363"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-am_values-am.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-am\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "206",
+                        "endOffsets": "545"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "206",
+                        "endOffsets": "307"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-et_values-et.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-et\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "242",
+                        "endOffsets": "581"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "242",
+                        "endOffsets": "343"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-zu_values-zu.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-zu\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "230",
+                        "endOffsets": "569"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "230",
+                        "endOffsets": "331"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-th_values-th.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-th\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "239",
+                        "endOffsets": "578"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "239",
+                        "endOffsets": "340"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-lo_values-lo.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-lo\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "263",
+                        "endOffsets": "602"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "263",
+                        "endOffsets": "364"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-gl_values-gl.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-gl\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "251",
+                        "endOffsets": "590"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "251",
+                        "endOffsets": "352"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-iw_values-iw.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-iw\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "216",
+                        "endOffsets": "555"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "216",
+                        "endOffsets": "317"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-ru_values-ru.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-ru\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "250",
+                        "endOffsets": "589"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "250",
+                        "endOffsets": "351"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-ko_values-ko.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-ko\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "198",
+                        "endOffsets": "537"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "198",
+                        "endOffsets": "299"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-ta_values-ta.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-ta\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "237",
+                        "endOffsets": "576"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "237",
+                        "endOffsets": "338"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-in_values-in.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-in\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "247",
+                        "endOffsets": "586"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "247",
+                        "endOffsets": "348"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-fa_values-fa.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-fa\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "257",
+                        "endOffsets": "596"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "257",
+                        "endOffsets": "358"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-pt-rBR_values-pt-rBR.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-pt-rBR\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "347",
+                        "endColumns": "268",
+                        "endOffsets": "611"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "268",
+                        "endOffsets": "369"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-ne_values-ne.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-ne\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "245",
+                        "endOffsets": "584"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "245",
+                        "endOffsets": "346"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-uk_values-uk.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-uk\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "249",
+                        "endOffsets": "588"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "249",
+                        "endOffsets": "350"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-fi_values-fi.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-fi\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "252",
+                        "endOffsets": "591"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "252",
+                        "endOffsets": "353"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-fr_values-fr.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-fr\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "287",
+                        "endOffsets": "626"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "287",
+                        "endOffsets": "388"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-uz_values-uz.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-uz\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "280",
+                        "endOffsets": "619"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "280",
+                        "endOffsets": "381"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-hi_values-hi.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-hi\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "243",
+                        "endOffsets": "582"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "243",
+                        "endOffsets": "344"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-vi_values-vi.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-vi\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "260",
+                        "endOffsets": "599"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "260",
+                        "endOffsets": "361"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-gu_values-gu.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-gu\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "252",
+                        "endOffsets": "591"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "252",
+                        "endOffsets": "353"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-pa_values-pa.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-pa\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "254",
+                        "endOffsets": "593"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "254",
+                        "endOffsets": "355"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-sk_values-sk.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-sk\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "248",
+                        "endOffsets": "587"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "248",
+                        "endOffsets": "349"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-ca_values-ca.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-ca\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "253",
+                        "endOffsets": "592"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "253",
+                        "endOffsets": "354"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-sw_values-sw.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-sw\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "252",
+                        "endOffsets": "591"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "252",
+                        "endOffsets": "353"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-sr_values-sr.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-sr\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "246",
+                        "endOffsets": "585"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "246",
+                        "endOffsets": "347"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-si_values-si.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-si\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "229",
+                        "endOffsets": "568"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "229",
+                        "endOffsets": "330"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-ky_values-ky.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-ky\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "251",
+                        "endOffsets": "590"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "251",
+                        "endOffsets": "352"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-ml_values-ml.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-ml\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "269",
+                        "endOffsets": "608"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "269",
+                        "endOffsets": "370"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-te_values-te.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-te\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "226",
+                        "endOffsets": "565"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "226",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-da_values-da.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-da\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "245",
+                        "endOffsets": "584"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "245",
+                        "endOffsets": "346"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-kn_values-kn.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-kn\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "250",
+                        "endOffsets": "589"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "250",
+                        "endOffsets": "351"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-es_values-es.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-es\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "263",
+                        "endOffsets": "602"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "263",
+                        "endOffsets": "364"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-pt-rPT_values-pt-rPT.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-pt-rPT\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "347",
+                        "endColumns": "260",
+                        "endOffsets": "603"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "260",
+                        "endOffsets": "361"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-ar_values-ar.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-ar\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "241",
+                        "endOffsets": "580"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "241",
+                        "endOffsets": "342"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-hr_values-hr.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-hr\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "234",
+                        "endOffsets": "573"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "234",
+                        "endOffsets": "335"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-tr_values-tr.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-tr\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "251",
+                        "endOffsets": "590"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "251",
+                        "endOffsets": "352"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-mn_values-mn.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-mn\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "255",
+                        "endOffsets": "594"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "255",
+                        "endOffsets": "356"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-zh-rHK_values-zh-rHK.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-zh-rHK\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "347",
+                        "endColumns": "177",
+                        "endOffsets": "520"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "177",
+                        "endOffsets": "278"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-eu_values-eu.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-eu\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "259",
+                        "endOffsets": "598"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "259",
+                        "endOffsets": "360"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-ms_values-ms.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-ms\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "260",
+                        "endOffsets": "599"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "260",
+                        "endOffsets": "361"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-nl_values-nl.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-nl\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "266",
+                        "endOffsets": "605"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "266",
+                        "endOffsets": "367"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-fr-rCA_values-fr-rCA.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-fr-rCA\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "347",
+                        "endColumns": "290",
+                        "endOffsets": "633"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "290",
+                        "endOffsets": "391"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-zh-rTW_values-zh-rTW.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-zh-rTW\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "347",
+                        "endColumns": "181",
+                        "endOffsets": "524"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "181",
+                        "endOffsets": "282"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-ur_values-ur.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-ur\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "257",
+                        "endOffsets": "596"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "257",
+                        "endOffsets": "358"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-be_values-be.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-be\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "254",
+                        "endOffsets": "593"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "254",
+                        "endOffsets": "355"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-ro_values-ro.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-ro\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "251",
+                        "endOffsets": "590"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "251",
+                        "endOffsets": "352"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-my_values-my.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-my\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "251",
+                        "endOffsets": "590"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "251",
+                        "endOffsets": "352"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-de_values-de.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-de\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "242",
+                        "endOffsets": "581"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "242",
+                        "endOffsets": "343"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-zh-rCN_values-zh-rCN.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-zh-rCN\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "347",
+                        "endColumns": "175",
+                        "endOffsets": "518"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "175",
+                        "endOffsets": "276"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-ka_values-ka.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-ka\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "249",
+                        "endOffsets": "588"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "249",
+                        "endOffsets": "350"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-bs_values-bs.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-bs\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "234",
+                        "endOffsets": "573"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "234",
+                        "endOffsets": "335"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-el_values-el.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-el\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "298",
+                        "endOffsets": "637"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "298",
+                        "endOffsets": "399"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-sl_values-sl.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-sl\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "245",
+                        "endOffsets": "584"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "245",
+                        "endOffsets": "346"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-kk_values-kk.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-kk\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "243",
+                        "endOffsets": "582"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "243",
+                        "endOffsets": "344"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-sv_values-sv.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-sv\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "219",
+                        "endOffsets": "558"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "219",
+                        "endOffsets": "320"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-tl_values-tl.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-tl\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "281",
+                        "endOffsets": "620"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "281",
+                        "endOffsets": "382"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-hy_values-hy.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-hy\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "258",
+                        "endOffsets": "597"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "258",
+                        "endOffsets": "359"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-nb_values-nb.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-nb\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "248",
+                        "endOffsets": "587"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "248",
+                        "endOffsets": "349"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-cs_values-cs.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-cs\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "244",
+                        "endOffsets": "583"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "244",
+                        "endOffsets": "345"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-en-rGB_values-en-rGB.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-en-rGB\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "347",
+                        "endColumns": "248",
+                        "endOffsets": "591"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "248",
+                        "endOffsets": "349"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-bg_values-bg.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-bg\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "243",
+                        "endOffsets": "582"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "243",
+                        "endOffsets": "344"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-km_values-km.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-km\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "246",
+                        "endOffsets": "585"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "246",
+                        "endOffsets": "347"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-es-rUS_values-es-rUS.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-es-rUS\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "347",
+                        "endColumns": "258",
+                        "endOffsets": "601"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "258",
+                        "endOffsets": "359"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,199,311,393,497,600",
+                        "endColumns": "143,111,81,103,102,119",
+                        "endOffsets": "194,306,388,492,595,715"
+                    },
+                    "to": {
+                        "startLines": "7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "822,966,1078,1160,1264,1367",
+                        "endColumns": "143,111,81,103,102,119",
+                        "endOffsets": "961,1073,1155,1259,1362,1482"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "5,8",
+                        "startColumns": "4,4",
+                        "startOffsets": "651,889",
+                        "endColumns": "66,218",
+                        "endOffsets": "713,1103"
+                    },
+                    "to": {
+                        "startLines": "3,6",
+                        "startColumns": "4,4",
+                        "startOffsets": "422,603",
+                        "endColumns": "66,218",
+                        "endOffsets": "484,817"
+                    }
+                },
+                {
+                    "source": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "4,2,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "164,55,105",
+                        "endColumns": "63,49,58",
+                        "endOffsets": "223,100,159"
+                    },
+                    "to": {
+                        "startLines": "4,5,13",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "489,553,1487",
+                        "endColumns": "63,49,58",
+                        "endOffsets": "548,598,1541"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-it_values-it.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-it\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "260",
+                        "endOffsets": "599"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "260",
+                        "endOffsets": "361"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-ja_values-ja.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-ja\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "196",
+                        "endOffsets": "535"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "196",
+                        "endOffsets": "297"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-bn_values-bn.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-bn\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "265",
+                        "endOffsets": "604"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "265",
+                        "endOffsets": "366"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-sq_values-sq.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\skalagar.ORADEV\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.1.aar\\9d6d00cc894c6b3fb6c2de4e4f15359a\\res\\values-sq\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "239",
+                        "endOffsets": "578"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "239",
+                        "endOffsets": "340"
+                    }
+                }
+            ]
+        }
+    ]
+}

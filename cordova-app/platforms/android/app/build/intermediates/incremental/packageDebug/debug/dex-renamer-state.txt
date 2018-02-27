@@ -1,0 +1,4 @@
+#Wed Feb 28 00:52:53 IST 2018
+base.0=D\:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+renamed.0=classes.dex
+file.0=D\:\\projects\\service manager\\repo_master\\master\\cordova-app\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0\\classes.dex
