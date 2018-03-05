@@ -13,6 +13,7 @@ import { Subscription } from 'rxjs/Subscription';
 export class CustomerComponent implements OnDestroy {
   subscription: Subscription;
   customers: Customer[];
+  customer: Customer;
   filteredCustomers: any[];
 
   constructor(
@@ -23,11 +24,19 @@ export class CustomerComponent implements OnDestroy {
     });
   }
 
+  showDeletePopup(customer) {
+    this.customer =  customer;
+  }
+
+  delete(customerId) {
+    this.customerService.delete(customerId);
+  }
+
   filter(query: string) {
     this.filteredCustomers = (query) ?
-      this.customers.filter(p => {
-        p.name.toLowerCase().includes(query.toLowerCase());
-      }) :
+      this.customers.filter(p =>
+        p.name.toLowerCase().includes(query.toLowerCase())
+      ) :
       this.customers;
   }
 

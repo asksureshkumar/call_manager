@@ -1,0 +1,144 @@
+<div class="row">
+  <div class="col-md-12">
+    <form #f="ngForm" (ngSubmit)="save(f.value)">
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="callNo">Call Number</label>
+          <input type="text" class="form-control" id="callNo" placeholder="Call Number" #callNo="ngModel" [(ngModel)]="call.callNo"
+            name="callNo" required>
+          <div *ngIf="callNo.touched && callNo.invalid" class="alert alert-danger">
+            Call Number is required
+          </div>
+        </div>
+        <div class="form-group col-md-6">
+          <label for="callType">Call Type</label>
+          <select id="callType" class="form-control" required #type="ngModel" [(ngModel)]="call.type" name="type">
+            <option value="Breakdown">Breakdown</option>
+            <option value="Installation">Installation</option>
+          </select>
+          <div *ngIf="type.touched && type.invalid" class="alert alert-danger">
+            Call Type is required
+          </div>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="brand">Brand</label>
+          <select #brand="ngModel" [(ngModel)]="call.brand" name="brand" id="brand" class="form-control" required>
+            <option *ngFor="let brand of brands" value="{{brand.title}}">{{brand.title}}</option>
+          </select>
+          <div *ngIf="brand.touched && brand.invalid" class="alert alert-danger">
+            <div *ngIf="brand.errors.required">
+              Brand is required
+            </div>
+          </div>
+        </div>
+        <div class="form-group col-md-6">
+          <label for="category">Product</label>
+          <select #category="ngModel" [(ngModel)]="call.category" name="category" id="category" class="form-control" required>
+            <option *ngFor="let category of categories" value="{{category.name}}">{{category.name}}</option>
+          </select>
+          <div *ngIf="category.touched && category.invalid" class="alert alert-danger">
+            <div *ngIf="category.errors.required">
+              Product is required
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="subCategory">Sub-Product</label>
+          <select #subCategory="ngModel" [(ngModel)]="call.subCategory" name="subCategory" id="subCategory" class="form-control" required>
+            <option *ngFor="let subCategory of subCategories" value="{{subCategory.name}}">{{subCategory.name}}</option>
+          </select>
+          <div *ngIf="subCategory.touched && subCategory.invalid" class="alert alert-danger">
+            <div *ngIf="subCategory.errors.required">
+              Sub-Product is required
+            </div>
+          </div>
+        </div>
+        <div class="form-group col-md-6">
+          <label for="quantity">Quantity</label>
+          <input type="text" class="form-control" id="quantity" placeholder="quantity" #quantity="ngModel" [(ngModel)]="call.quantity"
+            name="quantity">
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="purchasedFrom">Purchased From</label>
+          <input type="text" class="form-control" id="purchasedFrom" placeholder="purchasedFrom" #purchasedFrom="ngModel" [(ngModel)]="call.purchasedFrom"
+            name="purchasedFrom">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="dop">Date of Purchase</label>
+          <input type="date" class="form-control" id="dop" placeholder="Pin Code" #dop="ngModel" [(ngModel)]="call.dop" name="dop">
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="complaint">Nature of Complaint</label>
+          <input type="text" class="form-control" id="complaint" placeholder="complaint" required #complaint="ngModel" [(ngModel)]="call.complaint"
+            name="complaint">
+          <div *ngIf="complaint.touched && complaint.invalid" class="alert alert-danger">
+            Nature of Complaint is required
+          </div>
+        </div>
+        <div class="form-group col-md-6">
+          <label for="warranty">Warranty</label>
+          <select id="warranty" class="form-control" #warranty="ngModel" [(ngModel)]="call.warranty" name="warranty">
+            <option value="Warranty">In-Warranty</option>
+            <option value="OutOfWarranty">Out-of-Warranty</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="customer">Customer</label>
+          <select #customer="ngModel" [(ngModel)]="call.customer" name="customer" id="customer" class="form-control" required>
+            <option *ngFor="let customer of customers" value="{{customer.$key}}">{{customer.name}}-{{customer.phoneNumber}}</option>
+          </select>
+          <div *ngIf="customer.touched && customer.invalid" class="alert alert-danger">
+            <div *ngIf="customer.errors.required">
+              Customer is required
+            </div>
+          </div>
+        </div>
+        <div class="form-group col-md-6">
+          <label for="callStatus">Call Status</label>
+          <select id="callStatus" class="form-control" #callStatus="ngModel" [(ngModel)]="call.callStatus" name="callStatus">
+            <option value="OPEN">OPEN</option>
+            <option value="IN-PROGRESS">IN-PROGRESS</option>
+            <option value="PENDING">PENDING</option>
+            <option value="ESTIMATE">ESTIMATE</option>
+            <option value="CLOSE">CLOSE</option>
+          </select>
+          <div *ngIf="callStatus.touched && callStatus.invalid" class="alert alert-danger">
+            <div *ngIf="callStatus.errors.required">
+              Call Status is required
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="technician">Technician</label>
+          <select #technician="ngModel" [(ngModel)]="call.technician" name="technician" id="technician" class="form-control" required>
+            <option *ngFor="let user of users" value="{{user.name}}">{{user.name}}-{{user.mobileNumber}}</option>
+          </select>
+          <div *ngIf="technician.touched && technician.invalid" class="alert alert-danger">
+            <div *ngIf="technician.errors.required">
+              Technician is required
+            </div>
+          </div>
+        </div>
+        <div class="form-group col-md-6">
+          <label for="tat">TAT</label>
+          <input type="text" class="form-control" id="tat" disabled #tat="ngModel" [(ngModel)]="call.tat"
+            name="tat">
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary">Save</button>
+      <button type="button" class="btn" (click)="cancel()">Cancel</button>
+    </form>
+  </div>
+</div>

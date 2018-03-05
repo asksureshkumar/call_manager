@@ -1,0 +1,37 @@
+<div class="row">
+    <div class="col-md-6">
+      <form #f="ngForm" (ngSubmit)="save(f.value)">
+        <div class="form-group">
+          <label for="name">Category Name</label>
+          <input #name="ngModel" [(ngModel)]="category.name" name="name" id="name" type="text" class="form-control" required>
+          <div *ngIf="name.touched && name.invalid" class="alert alert-danger">
+            Category Name is required
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="description">Category Description</label>
+          <div class="input-group">
+            <input #description="ngModel" [(ngModel)]="category.description" name="description" id="description" type="text" class="form-control" required>
+          </div>
+          <div *ngIf="description.touched && description.invalid" class="alert alert-danger">
+            <div *ngIf="description.errors.required">
+              Category Description is required
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="status">Status</label>
+          <select #status="ngModel" [(ngModel)]="category.status" name="status" id="status" class="form-control" required>
+            <option value="active">Active</option>
+            <option value="in-active">In-Active</option>
+          </select>
+          <div *ngIf="status.touched && status.invalid" class="alert alert-danger">
+            Status is required
+          </div>
+        </div>
+        <button class="btn btn-primary">Save</button>
+        <button type="button" class="btn" (click)="cancel()">Cancel</button>
+      </form>
+    </div>
+  </div>
+  

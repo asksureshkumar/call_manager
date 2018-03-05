@@ -1,0 +1,73 @@
+<div class="row-actions">
+    <div>
+      <input 
+        #query
+        (keyup)="filter(query.value)"
+        type="text" class="form-control search-box" placeholder="Search...">
+    </div>
+    <div>
+      <a [routerLink]="[commonService.getNewSubCategoryURL()]" class="btn btn-primary add-icon">
+        <span class="hidden-phone">New Sub-Category</span>
+      </a>
+    </div>
+  </div>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th class="hidden-phone">Description</th>
+        <th>Category Name</th>
+        <th class="hidden-phone">Status</th>
+        <th class="actions-header">Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of filteredSubCategories">
+        <td>
+          <a href="#" [routerLink]="[commonService.getSubCategoriesURL(), item.$key]">
+            {{item.name}}
+          </a>
+        </td>
+        <td class="hidden-phone">{{item.description}}</td>
+        <td>{{item.category}}</td>
+        <td class="hidden-phone">{{item.status}}</td>
+        <td class="actions">
+          <a href="#" [routerLink]="[commonService.getSubCategoriesURL(), item.$key, 'edit']" 
+            class="show-phone">
+            <img src="assets/images/edit.png" alt="edit"
+                class="edit-icon">
+          </a>
+          <a href="#" data-toggle="modal" data-target="#deleteSubCategoryPopup" (click)="showDeletePopup(item)" 
+            class="show-phone">
+            <img src="assets/images/delete.png" alt="delete"
+                class="edit-icon">
+          </a>
+          <a href="#" [routerLink]="[commonService.getSubCategoriesURL(), item.$key, 'edit']" 
+            class="hidden-phone btn btn-outline-info btn-sm">&nbsp;&nbsp;Edit&nbsp;&nbsp;</a>
+          <button type="button" class="hidden-phone btn btn-outline-danger btn-sm" 
+            data-toggle="modal" data-target="#deleteSubCategoryPopup" (click)="showDeletePopup(item)">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="deleteSubCategoryPopup" tabindex="-1" role="dialog" aria-labelledby="subCategoryDeletePopup" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="deleteSubCategoryTitle">Delete SubCategory</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+              Please confirm on deletion of subCategory - <strong>{{subCategory?.name}}</strong>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+            <button type="button" class="btn btn-danger" data-dismiss="modal" (click)="delete(subCategory?.$key)">Confirm</button>
+          </div>
+        </div>
+      </div>
+    </div>

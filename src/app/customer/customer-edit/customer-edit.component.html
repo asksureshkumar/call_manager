@@ -1,0 +1,88 @@
+<div class="row">
+    <div class="col-md-12">
+      <form #f="ngForm" (ngSubmit)="save(f.value)">
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="customerName">Customer Name</label>
+            <input type="text" class="form-control" id="customerName" placeholder="Customer Name" #name="ngModel" [(ngModel)]="customer.name"
+              name="name" required disabled>
+          </div>
+          <div class="form-group col-md-6">
+            <label for="mailId">Mail Id</label>
+            <input type="email" class="form-control" id="mailId" placeholder="Mail Id" #mailId="ngModel" [(ngModel)]="customer.mailId"
+              name="mailId">
+            <div *ngIf="mailId.touched && mailId.invalid" class="alert alert-danger">
+              Mail Id is Invalid
+            </div>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-9">
+            <label for="address">Address</label>
+            <input type="text" class="form-control" id="address" placeholder="Address" required #address="ngModel" [(ngModel)]="customer.address"
+              name="address">
+            <div *ngIf="address.touched && address.invalid" class="alert alert-danger">
+              Address is required
+            </div>
+          </div>
+          <div class="form-group col-md-3">
+            <label for="pincode">Pin Code</label>
+            <input type="text" class="form-control" id="pincode" placeholder="Pin Code" required #pincode="ngModel" [(ngModel)]="customer.pincode"
+              name="pincode">
+            <div *ngIf="pincode.touched && pincode.invalid" class="alert alert-danger">
+              Pincode is required
+            </div>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="area">Area</label>
+            <input type="text" class="form-control" id="area" placeholder="Area" required #area="ngModel" [(ngModel)]="customer.area"
+              name="area">
+            <div *ngIf="area.touched && area.invalid" class="alert alert-danger">
+              Area is required
+            </div>
+          </div>
+          <div class="form-group col-md-6">
+            <label for="landmark">Landmark</label>
+            <input type="text" class="form-control" id="landmark" placeholder="Landmark" #landmark="ngModel" [(ngModel)]="customer.landmark"
+              name="landmark">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="district">District</label>
+            <select id="district" class="form-control" required #district="ngModel" [(ngModel)]="customer.district" name="district">
+              <option value="Krishnagiri">Krishnagiri</option>
+              <option value="Dharmapuri">Dharmapuri</option>
+            </select>
+            <div *ngIf="district.touched && district.invalid" class="alert alert-danger">
+              District is required
+            </div>
+          </div>
+          <div class="form-group col-md-6">
+            <label for="state">State</label>
+            <input type="text" class="form-control" id="state" value="Tamilnadu" disabled #state="ngModel" [(ngModel)]="customer.state"
+              name="state">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="mobile">Mobile</label>
+            <input type="text" class="form-control" id="mobile" placeholder="Mobile Number" required #phoneNumber="ngModel" [(ngModel)]="customer.phoneNumber"
+              name="phoneNumber">
+            <div *ngIf="phoneNumber.touched && phoneNumber.invalid" class="alert alert-danger">
+              Mobile number is required
+            </div>
+          </div>
+          <div class="form-group col-md-6">
+            <label for="altnumber">Alternate Number</label>
+            <input type="text" class="form-control" id="altnumber" placeholder="Alternate Phone Number" required #altPhoneNumber="ngModel"
+              [(ngModel)]="customer.altPhoneNumber" name="altPhoneNumber">
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Save</button>
+        <button type="button" class="btn" (click)="cancel()">Cancel</button>
+      </form>
+    </div>
+  </div>

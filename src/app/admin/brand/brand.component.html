@@ -26,10 +26,10 @@
         <div class="show-phone" style="vertical-align: text-bottom;"
           [ngStyle]="{'padding-right':b.status === 'active' ? '10px' : '5px'}">
           <img *ngIf="b.status === 'active'"
-            src="../../assets/images/online_status.jpg" alt="online" 
+            src="assets/images/online_status.jpg" alt="online" 
             class="online-status">
           <img *ngIf="b.status !== 'active'"
-            src="../../assets/images/offline_status.jpg" alt="offline" 
+            src="assets/images/offline_status.jpg" alt="offline" 
             class="offline-status">
         </div>
         <a href="#" [routerLink]="[commonService.getBrandsURL(), b.$key]">

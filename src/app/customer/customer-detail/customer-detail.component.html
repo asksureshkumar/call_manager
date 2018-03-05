@@ -1,73 +1,113 @@
 <div>
   <div class="row">
     <div class="col-md-6">
-      <div style="white-space: nowrap; display: flex; justify-content: space-around;">
-        <span class="header">Customer Name:</span>
-        <span>{{customer?.name}}</span>
+      <div class="row">
+        <div class="col-6">
+          <span class="header">Customer Name:</span>
+        </div>
+        <div class="col-6">
+          <span>{{customer?.name}}</span>
+        </div>
       </div>
     </div>
     <div class="col-md-6">
-        <div style="white-space: nowrap; display: flex; justify-content: space-around;">
+      <div class="row">
+        <div class="col-6">
           <span class="header">Mail Id:</span>
+        </div>
+        <div class="col-6">
           <span>{{customer?.mailId}}</span>
         </div>
       </div>
+    </div>
   </div>
   <div class="row">
     <div class="col-md-6">
-      <div style="display: flex; justify-content: space-around;">
-        <span class="header">Address:</span>
-        <span>{{customer?.address}}</span>
+      <div class="row">
+        <div class="col-6">
+          <span class="header">Address:</span>
+        </div>
+        <div class="col-6">
+          <span>{{customer?.address}}</span>
+        </div>
       </div>
     </div>
     <div class="col-md-6">
-        <div style="white-space: nowrap; display: flex; justify-content: space-around;">
+      <div class="row">
+        <div class="col-6">
           <span class="header">PinCode:</span>
+        </div>
+        <div class="col-6">
           <span>{{customer?.pincode}}</span>
         </div>
       </div>
+    </div>
   </div>
   <div class="row">
     <div class="col-md-6">
-      <div style="display: flex; justify-content: space-around;">
-        <span class="header">Area:</span>
-        <span>{{customer?.area}}</span>
+      <div class="row">
+        <div class="col-6">
+          <span class="header">Area:</span>
+        </div>
+        <div class="col-6">
+          <span>{{customer?.area}}</span>
+        </div>
       </div>
     </div>
     <div class="col-md-6">
-        <div style="white-space: nowrap; display: flex; justify-content: space-around;">
+      <div class="row">
+        <div class="col-6">
           <span class="header">Landmark:</span>
+        </div>
+        <div class="col-6">
           <span>{{customer?.landmark}}</span>
         </div>
       </div>
+    </div>
   </div>
   <div class="row">
     <div class="col-md-6">
-      <div style="display: flex; justify-content: space-around;">
-        <span class="header">District:</span>
-        <span>{{customer?.district}}</span>
+      <div class="row">
+        <div class="col-6">
+          <span class="header">District:</span>
+        </div>
+        <div class="col-6">
+          <span>{{customer?.district}}</span>
+        </div>
       </div>
     </div>
     <div class="col-md-6">
-        <div style="white-space: nowrap; display: flex; justify-content: space-around;">
+      <div class="row">
+        <div class="col-6">
           <span class="header">State:</span>
+        </div>
+        <div class="col-6">
           <span>{{customer?.state}}</span>
         </div>
       </div>
+    </div>
   </div>
   <div class="row">
     <div class="col-md-6">
-      <div style="display: flex; justify-content: space-around;">
-        <span class="header">Mobile:</span>
-        <span>{{customer?.phoneNumber}}</span>
+      <div class="row">
+        <div class="col-6">
+          <span class="header">Mobile:</span>
+        </div>
+        <div class="col-6">
+          <a href="tel:{{customer?.phoneNumber}}">{{customer?.phoneNumber}}</a>
+        </div>
       </div>
     </div>
     <div class="col-md-6">
-        <div style="white-space: nowrap; display: flex; justify-content: space-around;">
-          <span class="header">Alternate Phone Number:</span>
-          <span>{{customer?.altPhoneNumber}}</span>
+      <div class="row">
+        <div class="col-6">
+          <span class="header">Alternate Contact:</span>
+        </div>
+        <div class="col-6">
+          <a href="tel:{{customer?.altPhoneNumber}}">{{customer?.altPhoneNumber}}</a>
         </div>
       </div>
+    </div>
   </div>
-  <button type="button" class="btn btn-outline-secondary" (click)="cancel()">Back</button>
+  <button type="button" class="btn btn-outline-secondary back-button" (click)="cancel()">Back</button>
 </div>

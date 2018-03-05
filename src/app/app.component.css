@@ -2,8 +2,20 @@
     margin-top: 120px;
 }
 
+footer {
+    display: none;
+}
+
 @media (max-width: 767px) {
 	.router-content {
         margin-top: 90px;
+    }
+
+    footer {
+        display: inline-block;
+        position: fixed;
+        height: 100px;
+        bottom: 0;
+        width: 100%;
     }
 }

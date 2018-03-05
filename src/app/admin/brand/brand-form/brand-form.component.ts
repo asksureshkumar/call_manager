@@ -1,3 +1,4 @@
+import { CommonService } from './../../../services/common.service';
 import { Brand } from '../../../models/brand';
 import { BrandService } from './../../../services/brand.service';
 import { Component, OnInit } from '@angular/core';
@@ -14,6 +15,7 @@ export class BrandFormComponent implements OnInit {
 
   constructor(
     private brandService: BrandService,
+    private commonService: CommonService,
     private router: Router) { }
 
   ngOnInit() {
@@ -25,11 +27,11 @@ export class BrandFormComponent implements OnInit {
     } else {
       this.brandService.create(brand);
     }
-    this.router.navigate(['/admin/brands']);
+    this.router.navigate([this.commonService.getBrandsURL()]);
   }
 
   cancel() {
-    this.router.navigate(['/admin/brands']);
+    this.router.navigate([this.commonService.getBrandsURL()]);
   }
 
 }

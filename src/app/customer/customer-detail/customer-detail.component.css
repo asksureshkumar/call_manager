@@ -6,3 +6,11 @@
     text-align: right;
     margin-right: auto;
 }
+
+.row {
+    padding-bottom: 10px;
+}
+
+.back-button {
+    margin-top: 15px;
+}
