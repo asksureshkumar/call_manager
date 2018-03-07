@@ -41,6 +41,10 @@ export class CommonService {
     return '/calls/new';
   }
 
+  getQuickCallURL(): string {
+    return '/calls/quick';
+  }
+
   getBrandsURL(): string {
     return '/admin/brands';
   }

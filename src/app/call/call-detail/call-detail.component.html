@@ -1,3 +1,159 @@
-<p>
-  call-detail works!
-</p>
+<div>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="row">
+        <div class="col-6">
+          <span class="header">Call No:</span>
+        </div>
+        <div class="col-6">
+          <span>{{call?.callNo}}</span>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="row">
+        <div class="col-6">
+          <span class="header">Call Type:</span>
+        </div>
+        <div class="col-6">
+          <span>{{call?.type}}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="row">
+        <div class="col-6">
+          <span class="header">Brand:</span>
+        </div>
+        <div class="col-6">
+          <span>{{call?.brandName}}</span>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="row">
+        <div class="col-6">
+          <span class="header">Product:</span>
+        </div>
+        <div class="col-6">
+          <span>{{call?.categoryName}}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="row">
+        <div class="col-6">
+          <span class="header">Sub-Product:</span>
+        </div>
+        <div class="col-6">
+          <span>{{call?.subCategoryName}}</span>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="row">
+        <div class="col-6">
+          <span class="header">Quantity:</span>
+        </div>
+        <div class="col-6">
+          <span>{{call?.quantity}}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="row">
+        <div class="col-6">
+          <span class="header">Customer:</span>
+        </div>
+        <div class="col-6">
+          <button type="button" class="btn btn-link" style="padding-left: 0px; padding-top: 0px;" (click)="gotoCustomerPage()">
+            {{call?.customerName}}
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="row">
+        <div class="col-6">
+          <span class="header">Call Status:</span>
+        </div>
+        <div class="col-6">
+          <span>{{call?.callStatus}}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="row">
+        <div class="col-6">
+          <span class="header">Purchased From:</span>
+        </div>
+        <div class="col-6">
+          <span>{{call?.purchasedFrom}}</span>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="row">
+        <div class="col-6">
+          <span class="header">Date of Purchase:</span>
+        </div>
+        <div class="col-6">
+          <span>{{call?.dop}}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="row">
+        <div class="col-6">
+          <span class="header">Nature of Complaint:</span>
+        </div>
+        <div class="col-6">
+          <span>{{call?.complaint}}</span>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="row">
+        <div class="col-6">
+          <span class="header">Warranty:</span>
+        </div>
+        <div class="col-6">
+          <span>{{call?.warranty}}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="row">
+        <div class="col-6">
+          <span class="header">Technician:</span>
+        </div>
+        <div class="col-6">
+          <span>{{call?.technicianName}}</span>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="row">
+        <div class="col-6">
+          <span class="header">TAT:</span>
+        </div>
+        <div class="col-6">
+          <span>{{call?.tat}}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button type="button" class="btn btn-outline-secondary back-button" (click)="cancel()">Back</button>
+</div>

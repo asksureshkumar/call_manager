@@ -3,9 +3,13 @@
     <input #query (keyup)="filter(query.value)" type="text" class="form-control search-box" placeholder="Search...">
   </div>
   <div>
+    <a [routerLink]="[commonService.getQuickCallURL()]" class="btn btn-primary quick-add-icon">
+      <span class="hidden-phone">Quick Call</span>
+    </a>
     <a [routerLink]="[commonService.getNewCallURL()]" class="btn btn-primary add-icon">
       <span class="hidden-phone">New Call</span>
     </a>
+
   </div>
 </div>
 <table class="table">
@@ -15,7 +19,7 @@
       <th class="hidden-phone">Customer</th>
       <th class="hidden-phone">Technician</th>
       <th>Status</th>
-      <th>Warranty</th>
+      <th class="hidden-phone">Warranty</th>
       <th>Actions</th>
     </tr>
   </thead>
@@ -25,21 +29,26 @@
         <a href="#" [routerLink]="[commonService.getCallsURL(), item.$key]">
           {{item.callNo}}
         </a>
-        <div class="show-phone customer-area">
+        <div class="show-phone small-font">
           <br/>{{item.complaint}}
         </div>
       </td>
       <td class="hidden-phone">
-        <a href="#" [routerLink]="[commonService.getCustomersURL(), item.customer]">
-          {{item.customer}}
+        <a href="#" [routerLink]="[commonService.getCustomersURL(), item.customerKey]" [queryParams]="{returnUrl: commonService.getCallsURL()}">
+          {{item.customerName}}
         </a>
       </td>
-      <td class="hidden-phone">{{item.technician}}</td>
+      <td class="hidden-phone">{{item.technicianName}}</td>
       <td>
-          <span>{{item.callStatus}}</span>
+        <span class="hidden-phone">{{item.callStatus}}</span>
+        <span class="show-phone small-font">{{item.callStatus}}/{{item.warranty}}</span>
+        <br/>
+        <a class="show-phone small-font" href="#" [routerLink]="[commonService.getCustomersURL(), item.customerKey]" [queryParams]="{returnUrl: commonService.getCallsURL()}">
+          {{item.customerName}}
+        </a>
       </td>
-      <td>
-          <span>{{item.warranty}}</span>
+      <td class="hidden-phone">
+        <span>{{item.warranty}}</span>
       </td>
       <td class="actions">
         <a href="#" [routerLink]="[commonService.getCallsURL(), item.$key, 'edit']" class="show-phone">

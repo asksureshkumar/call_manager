@@ -12,6 +12,7 @@ import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database-deprecated';
 import { environment } from './../environments/environment';
 import { FormsModule } from '@angular/forms';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppComponent } from './app.component';
 import { TopNavbarComponent } from './top-navbar/top-navbar.component';
@@ -46,6 +47,7 @@ import { SubCategoryDetailComponent } from './products/sub-category/sub-category
 import { CallFormComponent } from './call/call-form/call-form.component';
 import { CallEditComponent } from './call/call-edit/call-edit.component';
 import { CallDetailComponent } from './call/call-detail/call-detail.component';
+import { CallQuickFormComponent } from './call/call-quick-form/call-quick-form.component';
 
 
 @NgModule({
@@ -81,13 +83,15 @@ import { CallDetailComponent } from './call/call-detail/call-detail.component';
     SubCategoryDetailComponent,
     CallFormComponent,
     CallEditComponent,
-    CallDetailComponent
+    CallDetailComponent,
+    CallQuickFormComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireDatabaseModule,
+    NgbModule.forRoot(),
     RouterModule.forRoot([
       {path: '', component: HomeComponent},
       {path: 'categories/new', component: CategoryFormComponent},
@@ -103,6 +107,7 @@ import { CallDetailComponent } from './call/call-detail/call-detail.component';
       {path: 'customers/:id/edit', component: CustomerEditComponent},
       {path: 'customers', component: CustomerComponent},
       {path: 'calls/new', component: CallFormComponent},
+      {path: 'calls/quick', component: CallQuickFormComponent},
       {path: 'calls/:id', component: CallDetailComponent},
       {path: 'calls/:id/edit', component: CallEditComponent},
       {path: 'calls', component: CallComponent},

@@ -18,7 +18,7 @@
 }
 
 @media (max-width: 767px) {
-    .customer-area {
+    .small-font {
         font-size: smaller;
     }
     .add-icon {
@@ -28,9 +28,20 @@
         background-repeat: no-repeat;
         border-color: #fff;
         background-color: #fff;
-        width: 76px;
+        width: 67px;
         height: 38px;
         background-image: url('/assets/images/add.png');
+    }
+    .quick-add-icon {
+        display: inline-block;
+        background-size: 100%;
+        background-position: 0px 0px;
+        background-repeat: no-repeat;
+        border-color: #fff;
+        background-color: #fff;
+        width: 35px;
+        height: 38px;
+        background-image: url('/assets/images/quick_add.png');
     }
     .edit-icon {
         width: 25px;

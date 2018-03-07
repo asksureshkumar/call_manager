@@ -1,0 +1,16 @@
+.header {
+    font-weight: 600;
+    white-space: nowrap;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    text-align: right;
+    margin-right: auto;
+}
+
+.row {
+    padding-bottom: 10px;
+}
+
+.back-button {
+    margin-top: 15px;
+}

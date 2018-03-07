@@ -1,0 +1,65 @@
+<div class="row">
+  <div class="col-md-12">
+    <form #f="ngForm" (ngSubmit)="save(call)">
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="customer">Customer</label>
+          <input id="typeahead-customer" type="text" class="form-control" #customer="ngModel" [(ngModel)]="call.customerKey" name="customer"
+            [ngbTypeahead]="search" [resultFormatter]="formatter" [inputFormatter]="formatter" placeholder="Customer Search"
+            required/>
+          <div *ngIf="customer.touched && customer.invalid" class="alert alert-danger">
+            Customer is required
+          </div>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="brand">Brand</label>
+          <select #brand="ngModel" [(ngModel)]="call.brandKey" name="brand" id="brand" class="form-control" required>
+            <option *ngFor="let brand of brands" value="{{brand.$key}}#$#{{brand.title}}">{{brand.title}}</option>
+          </select>
+          <div *ngIf="brand.touched && brand.invalid" class="alert alert-danger">
+            <div *ngIf="brand.errors.required">
+              Brand is required
+            </div>
+          </div>
+        </div>
+        <div class="form-group col-md-6">
+          <label for="category">Product</label>
+          <select #category="ngModel" [(ngModel)]="call.categoryKey" name="category" id="category" class="form-control" required>
+            <option *ngFor="let category of categories" value="{{category.$key}}#$#{{category.name}}">{{category.name}}</option>
+          </select>
+          <div *ngIf="category.touched && category.invalid" class="alert alert-danger">
+            <div *ngIf="category.errors.required">
+              Product is required
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="subCategory">Sub-Product</label>
+          <select #subCategory="ngModel" [(ngModel)]="call.subCategoryKey" name="subCategory" id="subCategory" class="form-control"
+            required>
+            <option *ngFor="let subCategory of subCategories" value="{{subCategory.$key}}#$#{{subCategory.name}}">{{subCategory.name}}</option>
+          </select>
+          <div *ngIf="subCategory.touched && subCategory.invalid" class="alert alert-danger">
+            <div *ngIf="subCategory.errors.required">
+              Sub-Product is required
+            </div>
+          </div>
+        </div>
+        <div class="form-group col-md-6">
+          <label for="complaint">Nature of Complaint</label>
+          <input type="text" class="form-control" id="complaint" placeholder="complaint" required #complaint="ngModel" [(ngModel)]="call.complaint"
+            name="complaint">
+          <div *ngIf="complaint.touched && complaint.invalid" class="alert alert-danger">
+            Nature of Complaint is required
+          </div>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary">Save</button>
+      <button type="button" class="btn" (click)="cancel()">Cancel</button>
+    </form>
+  </div>
+</div>

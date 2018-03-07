@@ -14,6 +14,10 @@ import { Call } from './../../models/call';
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { Customer } from '../../models/customer';
 import { CustomerService } from '../../services/customer.service';
+import { Observable } from 'rxjs/Observable';
+import 'rxjs/add/operator/map';
+import 'rxjs/add/operator/debounceTime';
+import 'rxjs/add/operator/distinctUntilChanged';
 
 @Component({
   selector: 'app-call-form',
@@ -70,12 +74,26 @@ export class CallFormComponent implements OnDestroy {
     this.userSubscription.unsubscribe();
   }
 
+  formatter = (result: Customer): string => result.name + ' - ' + result.phoneNumber;
+
+  search = (text$: Observable<string>) =>
+    text$
+      .debounceTime(200)
+      .distinctUntilChanged()
+      .map(term => term.length < 2 ? []
+        : this.customers.filter(v => {
+          if (v.name.toLowerCase().indexOf(term.toLowerCase()) > -1 ||
+            v.phoneNumber.startsWith(term.toLowerCase())) {
+            return true;
+          }
+        }).slice(0, 10))
+
   save(call) {
-    this.preProcessData(call);
+    const data: Call = this.preProcessData(call);
     if (this.id) {
-      this.callService.udpate(this.id, call);
+      this.callService.udpate(this.id, data);
     } else {
-      this.callService.create(call);
+      this.callService.create(data);
     }
     this.router.navigate([this.commonService.getCallsURL()]);
   }
@@ -84,8 +102,52 @@ export class CallFormComponent implements OnDestroy {
     this.router.navigate([this.commonService.getCallsURL()]);
   }
 
-  preProcessData(call) {
-
+  preProcessData(call): Call {
+    const data: Call = new Call();
+    data.callNo = call.callNo;
+    data.callStatus = call.callStatus;
+    if (call.brandKey) {
+      data.brandKey = call.brandKey.split('#$#', 2)[0];
+      data.brandName = call.brandKey.split('#$#', 2)[1];
+    }
+    if (call.categoryKey) {
+      data.categoryKey = call.categoryKey.split('#$#', 2)[0];
+      data.categoryName = call.categoryKey.split('#$#', 2)[1];
+    }
+    if (call.subCategoryKey) {
+      data.subCategoryKey = call.subCategoryKey.split('#$#', 2)[0];
+      data.subCategoryName = call.subCategoryKey.split('#$#', 2)[1];
+    }
+    if (call.customerKey) {
+      data.customerKey = call.customerKey.$key;
+      data.customerName = call.customerKey.name;
+    }
+    if (call.technicianKey) {
+      data.technicianKey = call.technicianKey.split('#$#', 2)[0];
+      data.technicianName = call.technicianKey.split('#$#', 2)[1];
+    }
+    if (call.complaint) {
+      data.complaint = call.complaint;
+    }
+    if (call.dop) {
+      data.dop = call.dop;
+    }
+    if (call.purchasedFrom) {
+      data.purchasedFrom = call.purchasedFrom;
+    }
+    if (call.quantity) {
+      data.quantity = call.quantity;
+    }
+    if (call.type) {
+      data.type = call.type;
+    }
+    if (call.warranty) {
+      data.warranty = call.warranty;
+    }
+    if (call.tat) {
+      data.tat = call.tat;
+    }
+    return data;
   }
 
 }

@@ -7,7 +7,7 @@ import { Category } from './../../models/category';
 import { Subscription } from 'rxjs/Subscription';
 import { Brand } from './../../models/brand';
 import { BrandService } from './../../services/brand.service';
-import { Router, ActivatedRoute } from '@angular/router';
+import { Router } from '@angular/router';
 import { CommonService } from './../../services/common.service';
 import { CallService } from './../../services/call.service';
 import { Call } from './../../models/call';
@@ -20,34 +20,31 @@ import 'rxjs/add/operator/debounceTime';
 import 'rxjs/add/operator/distinctUntilChanged';
 
 @Component({
-  selector: 'app-call-edit',
-  templateUrl: './call-edit.component.html',
-  styleUrls: ['./call-edit.component.css']
+  selector: 'app-call-quick-form',
+  templateUrl: './call-quick-form.component.html',
+  styleUrls: ['./call-quick-form.component.css']
 })
-export class CallEditComponent implements OnDestroy {
-
+export class CallQuickFormComponent implements OnDestroy {
   brandSubscription: Subscription;
   categorySubscription: Subscription;
   subCategorySubscription: Subscription;
   customerSubscription: Subscription;
-  userSubscription: Subscription;
   call: Call = new Call();
   brands: Brand[];
   categories: Category[];
   subCategories: SubCategory[];
   customers: Customer[];
-  users: User[];
   id;
 
-  constructor(private callService: CallService,
+  constructor(
+    private callService: CallService,
     private commonService: CommonService,
     private brandService: BrandService,
     private categoryService: CategoryService,
     private subCategoryService: SubCategoryService,
     private customerService: CustomerService,
-    private userService: UserService,
-    private router: Router,
-    private route: ActivatedRoute) {
+    private router: Router
+  ) {
     this.brandSubscription = this.brandService.getAll().subscribe(brands => {
       this.brands = brands;
     });
@@ -60,43 +57,6 @@ export class CallEditComponent implements OnDestroy {
     this.customerSubscription = this.customerService.getAll().subscribe(customers => {
       this.customers = customers;
     });
-    this.userSubscription = this.userService.getAll().subscribe(users => {
-      this.users = users;
-    });
-    this.id = this.route.snapshot.paramMap.get('id');
-    if (this.id) {
-      this.callService.get(this.id)
-        .take(1)
-        .subscribe((p) => {
-          this.call = p;
-          if (this.call) {
-            this.processCall(this.call);
-          }
-        });
-    }
-  }
-
-  private processCall(call: Call) {
-    if (call.brandKey) {
-      call.brandKey = call.brandKey + '#$#' + call.brandName;
-    }
-    if (call.categoryKey) {
-      call.categoryKey = call.categoryKey + '#$#' + call.categoryName;
-    }
-    if (call.subCategoryKey) {
-      call.subCategoryKey = call.subCategoryKey + '#$#' + call.subCategoryName;
-    }
-    if (call.customerKey) {
-      this.customerService.get(call.customerKey)
-        .take(1)
-        .subscribe((p) => {
-          this.formatter(p);
-          call.customerKey = p;
-        });
-    }
-    if (call.technicianKey) {
-      call.technicianKey = call.technicianKey + '#$#' + call.technicianName;
-    }
   }
 
   ngOnDestroy() {
@@ -104,12 +64,9 @@ export class CallEditComponent implements OnDestroy {
     this.categorySubscription.unsubscribe();
     this.subCategorySubscription.unsubscribe();
     this.customerSubscription.unsubscribe();
-    this.userSubscription.unsubscribe();
   }
 
-  formatter = (result: Customer): string => {
-    return result.name + ' - ' + result.phoneNumber;
-  }
+  formatter = (result: Customer): string => result.name + ' - ' + result.phoneNumber;
 
   search = (text$: Observable<string>) =>
     text$
@@ -127,6 +84,8 @@ export class CallEditComponent implements OnDestroy {
     const data: Call = this.preProcessData(call);
     if (this.id) {
       this.callService.udpate(this.id, data);
+    } else {
+      this.callService.create(data);
     }
     this.router.navigate([this.commonService.getCallsURL()]);
   }
@@ -137,8 +96,8 @@ export class CallEditComponent implements OnDestroy {
 
   preProcessData(call): Call {
     const data: Call = new Call();
-    data.callNo = call.callNo;
-    data.callStatus = call.callStatus;
+    data.callNo = '######';
+    data.callStatus = 'OPEN';
     if (call.brandKey) {
       data.brandKey = call.brandKey.split('#$#', 2)[0];
       data.brandName = call.brandKey.split('#$#', 2)[1];
@@ -155,31 +114,7 @@ export class CallEditComponent implements OnDestroy {
       data.customerKey = call.customerKey.$key;
       data.customerName = call.customerKey.name;
     }
-    if (call.technicianKey) {
-      data.technicianKey = call.technicianKey.split('#$#', 2)[0];
-      data.technicianName = call.technicianKey.split('#$#', 2)[1];
-    }
-    if (call.complaint) {
-      data.complaint = call.complaint;
-    }
-    if (call.dop) {
-      data.dop = call.dop;
-    }
-    if (call.purchasedFrom) {
-      data.purchasedFrom = call.purchasedFrom;
-    }
-    if (call.quantity) {
-      data.quantity = call.quantity;
-    }
-    if (call.type) {
-      data.type = call.type;
-    }
-    if (call.warranty) {
-      data.warranty = call.warranty;
-    }
-    if (call.tat) {
-      data.tat = call.tat;
-    }
+    data.complaint = call.complaint;
     return data;
   }
 
